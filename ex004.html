@@ -1,14 +1,29 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicio 004 - Aula 6</title>
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" color="black">
+    <title>Aula 6 Ex 004</title>
+    <style>
+        body{
+            font: 24pt verdana; color:green; text-align: center;
+        } 
+
+    </style>
+
 </head>
 <body>
+    <p>AULA 6 - EXERCÍCIO 004</p>
     <script>
+        var salario = 6172;
+
         var nome = window.prompt('Qual é o seu nome?') 
-        document.write(' Seu nome tem ${nome.length} letras.')
+        document.write(`Olá ${nome}! <br>Seu nome tem ${nome.length} letras.</br>`)
+        document.write(`Seu nome em MAIÚSCULA é ${nome.toUpperCase()}</br>`)
+        document.write(`Seu nome em minúscula é ${nome.toLowerCase()}`)
+        alert( " Seu salario" + salario + "!");
+
 
     </script>
 
